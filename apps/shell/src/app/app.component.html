@@ -1,0 +1,11 @@
+<ul class="remote-menu">
+  <li><a routerLink="/">Home</a></li>
+
+  <li><a routerLink="shop-cart">ShopCart</a></li>
+  <li><a routerLink="about">About</a></li>
+</ul>
+
+<h3>state shell{{_shareStateService.state}}</h3>
+
+<button (click)="setState()">setState</button>
+<router-outlet></router-outlet>

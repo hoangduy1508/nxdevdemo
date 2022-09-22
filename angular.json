@@ -2,7 +2,18 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "about": "apps/about",
+    "about-e2e": "apps/about-e2e",
+    "api": "apps/api",
+    "data": "libs/data",
+    "nvdevdemo2": "apps/nvdevdemo2",
+    "nvdevdemo2-e2e": "apps/nvdevdemo2-e2e",
     "nxdevdemo": "apps/nxdevdemo",
-    "nxdevdemo-e2e": "apps/nxdevdemo-e2e"
+    "nxdevdemo-e2e": "apps/nxdevdemo-e2e",
+    "shell": "apps/shell",
+    "shell-e2e": "apps/shell-e2e",
+    "shop-cart": "apps/shop-cart",
+    "shop-cart-e2e": "apps/shop-cart-e2e",
+    "ui": "libs/ui"
   }
 }
